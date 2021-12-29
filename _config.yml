@@ -100,13 +100,13 @@ gitment_oauth:
   client_secret: ''       #client secret
 
 #6、Valine https://valine.js.org
-#valine:
-#  appid:  'jTRJGsmA4xfv6pp86CDq4vvb-gzGzoHsz'
-#  appkey:  '7abRlemxRDUmMXpcdLw8XSka'
-#  verify: false #验证码
-#  notify: false #评论回复提醒
-#  avatar: '' #评论列表头像样式：(''/mp/identicon/monsterid/wavatar/robohash/retro/hide)
-#  placeholder: Just go go #评论框占位符
+valine:
+  appid:  'jTRJGsmA4xfv6pp86CDq4vvb-gzGzoHsz'
+  appkey:  '7abRlemxRDUmMXpcdLw8XSka'
+  verify: false #验证码
+  notify: false #评论回复提醒
+  avatar: '' #评论列表头像样式：(''/mp/identicon/monsterid/wavatar/robohash/retro/hide)
+  placeholder: Just go go #评论框占位符
 
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
@@ -140,3 +140,10 @@ friends:
   友情链接6: http://localhost:4000/
 
 aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+
+
+## 版权声明
+declare_type: 1  #0 - 关闭声明 1 - 文章对应的 md 文件里有 declare: true 属性，才有版权声明 2 - 所有文章均有版权声明
+licensee_url: https://creativecommons.org/licenses/by-nc-sa/4.0/          # 当前应用的版权协议地址。
+licensee_name: '知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议'  # 版权协议的名称
+licensee_img: https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png      # 版权协议的Logo
